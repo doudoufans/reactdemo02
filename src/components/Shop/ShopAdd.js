@@ -10,7 +10,7 @@ class ShopAdd extends React.Component {
     render() {
         return (
             <div className='info'> 
-            用户信息
+            商品添加
                 {this.state.msg}
                 
             </div>
