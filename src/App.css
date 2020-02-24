@@ -1,20 +1,4 @@
 @import '~antd/dist/antd.css';
-/* .App {
-  text-align: center;
-}
-
-.App-header {
-  background-color: #282c34;
-  height: 44px;
-  line-height: 44px;
-  text-align: center;
-  color: #fff;
-}
-.App-header a{
-  color: #fff;
-  padding:0px 40px;
-
-} */
 
 .App .trigger {
   font-size: 18px;

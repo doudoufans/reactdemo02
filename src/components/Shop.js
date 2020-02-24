@@ -18,6 +18,7 @@ class Shop extends React.Component {
     render() {
         return (
             <div className='user'>
+                商品组件
                 <div className='content'>
                     <div className='left'>
                         <Link to="/shop">商户列表</Link>

@@ -18,13 +18,14 @@ class User extends React.Component {
     render() {
         return (
             <div className='user'>
+                用户组件
                 <div className='content'>
-                    <div className='left'>
+                    {/* <div className='left'>
                         <Link to="/user">个人中心</Link>
                         <br />
                         <Link to="/user/info">用户信息</Link>
                     </div>
-                    <div className='right'>
+                    <div className='right'> */}
                     <Route exact path="/user" component={Main}/>
                     <Route path="/user/info" component={Info}/>
                     </div>
