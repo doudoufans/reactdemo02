@@ -1,9 +1,4 @@
 import React from 'react';
-import axios from 'axios';
-import { Button } from 'antd';
-
-
-
 
 class Home extends React.Component {
     constructor(props) {
@@ -15,10 +10,7 @@ class Home extends React.Component {
     render() {
         return (
             <div className='home'> 
-                首页组件
-                <Button type="primary">Primary</Button>
-
-                
+                工具说明   
             </div>
         );
     }

@@ -1,21 +1,19 @@
 import React from 'react';
 
-class ShopList extends React.Component {
+class History extends React.Component {
     constructor(props) {
         super(props);
         this.state = { 
-            msg:'我是商品列表'
+            msg:'历史数据'
          };
     }
     render() {
         return (
             <div className='info'> 
-            商品列表
-                {this.state.msg}
-                
+                {this.state.msg}              
             </div>
         );
     }
 }
 
-export default ShopList;
+export default History;
